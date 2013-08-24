@@ -1,0 +1,28 @@
+{
+  "name": "couch_cushion",
+  "version": "0.0.1",
+  "description": "Journeyman sessions with couchdb",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bthesorceror/couch_cushion.git"
+  },
+  "keywords": [
+    "sessions",
+    "journeyman",
+    "couchdb"
+  ],
+  "author": "Brandon Farmer",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/bthesorceror/couch_cushion/issues"
+  },
+  "dependencies": {
+    "runner5": "0.0.6",
+    "cookies": "~0.3.6",
+    "nano": "~4.1.1"
+  }
+}
