@@ -24,8 +24,8 @@ CouchCushion.prototype.middleware = function() {
       this.handleError(req, res, err);
     }.bind(this));
 
-    req.session.setup(this.getSessionId(req, res), function() {
-      this.setSessionId(req, res, req.session.id); next();
+    req.session.setup(self.getSessionId(req, res), function() {
+      self.setSessionId(req, res, req.session.id); next();
     }.bind(this));
   }
 }
