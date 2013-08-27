@@ -24,5 +24,9 @@
     "runner5": "0.0.6",
     "cookies": "~0.3.6",
     "nano": "~4.1.1"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4",
+    "tap": "~0.4.4"
   }
 }
