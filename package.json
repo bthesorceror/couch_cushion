@@ -27,6 +27,8 @@
   },
   "devDependencies": {
     "tape": "~1.0.4",
-    "tap": "~0.4.4"
+    "tap": "~0.4.4",
+    "rudder": "0.0.4",
+    "journeyman": "0.0.8"
   }
 }
