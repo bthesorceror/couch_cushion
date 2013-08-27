@@ -1,5 +1,6 @@
 var Cookies        = require('cookies');
 var SessionManager = require('./lib/session_manager');
+var nano = require('nano');
 
 function CouchCushion(url, ttl) {
   this.connection = nano(url);
